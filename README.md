@@ -220,7 +220,7 @@ The dashboard consists of **seven key sections** providing actionable insights i
 
 ---
 
-### **6.Demographics & Churn**  
+### **6. Demographics & Churn**  
 **Senior citizens churn at a significantly higher rate (41.68%).**  
 **Churn rate is slightly higher among females than males.**  
 **Customers without a partner are more likely to leave.**  
