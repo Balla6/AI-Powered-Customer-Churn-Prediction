@@ -242,25 +242,50 @@ The trained model is deployed as a **REST API** to enable **real-time churn pred
 ➡ [https://churn-api.onrender.com/](https://churn-api.onrender.com/)  
 
 #### **Example API Request:**  
-```json  
-{
-    "SeniorCitizen": 0,  
-    "Partner": 1,  
-    "Dependents": 0,  
-    "tenure": 12,  
-    "MonthlyCharges": 75.5,  
-    "TotalCharges": 900,  
-    "Contract": "Month-to-month",  
-    "PaymentMethod": "Electronic Check"  
-}  
+```
+import requests
+
+url = "https://churn-api.onrender.com/predict"
+data = {
+    "SeniorCitizen": 0,
+    "Partner": 1,
+    "Dependents": 0,
+    "tenure": 12,
+    "PhoneService": 1,
+    "MultipleLines": 0,
+    "InternetService": 1,
+    "OnlineSecurity": 0,
+    "OnlineBackup": 1,
+    "DeviceProtection": 1,
+    "TechSupport": 1,
+    "StreamingTV": 0,
+    "StreamingMovies": 1,
+    "Contract": 0,
+    "PaperlessBilling": 1,
+    "MonthlyCharges": 75.0,
+    "TotalCharges": 1800.5,
+    "AutoPayment": 1,
+    "SupportServices": 1,
+    "gender_Male": 1,
+    "TenureCategory_Medium-term": 1,
+    "TenureCategory_Long-term": 0,
+    "MonthlyChargesCategory_Medium": 1,
+    "MonthlyChargesCategory_High": 0,
+    "MonthlyChargesCategory_Very High": 0,
+    "AvgMonthlySpend": 75.0,
+    "LogTotalCharges": 7.2,
+    "Monthly_Tenure": 1800.5,
+    "Support_TotalCharges": 200.0
+}
+
+response = requests.post(url, json=data)
+print(response.json())
+
 ```  
 
 #### **Example API Response:**  
-```json  
-{
-    "churn_probability": 0.78,  
-    "final_prediction": "Yes"  
-}  
+```
+{'churn_probability': 0.4114, 'final_prediction': 'Churn'}
 ```  
 
 ---  
