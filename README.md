@@ -157,7 +157,8 @@ The dashboard consists of **seven key sections** providing actionable insights i
 4.**Service Usage & Churn Impact** – Evaluates how internet service type, streaming, and support services affect churn.  
 5.**Financial Factors & Churn** – Analyzes churn trends related to monthly and total charges.  
 6.**Demographics & Churn** – Highlights churn differences by **senior status, gender, and partner status**.  
-7.**High-Risk Customer List** – Identifies customers who require proactive engagement to reduce churn.  
+
+**Access the Power BI dashboard here: [Interactive Power BI Dashboard](https://app.powerbi.com/groups/me/reports/828c5435-922e-40da-b9f0-d2e3fb6bfc49/593d6c111b41dd6473d0?experience=power-bi)**
 
 ---
 
@@ -228,8 +229,6 @@ The dashboard consists of **seven key sections** providing actionable insights i
 **Business Impact:**  
 - **Create tailored plans for senior citizens.**  
 - **Consider personalized retention strategies based on household status.**
-
-- **Access the Power BI dashboard here: [Interactive Power BI Dashboard]([https://app.powerbi.com/groups/me/reports/828c5435-922e-40da-b9f0-d2e3fb6bfc49/593d6c111b41dd6473d0?experience=power-bi])**
 ---
 
 ## **6. API Deployment**  
