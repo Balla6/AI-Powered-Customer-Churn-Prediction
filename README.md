@@ -193,7 +193,7 @@ The dashboard consists of **seven key sections** providing actionable insights i
 **Billing Preference:** Customers using **paperless billing and manual payments** are at higher churn risk.  
 **Support Services:** Customers without **Tech Support or Online Security** are more likely to leave.  
 
-** Business Impact:**  
+**Business Impact:**  
 - **Upsell long-term contracts to month-to-month customers.**  
 - **Promote auto-payments and incentives for tech support services.**  
 
