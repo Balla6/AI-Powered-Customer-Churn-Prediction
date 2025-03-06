@@ -227,7 +227,9 @@ The dashboard consists of **seven key sections** providing actionable insights i
 
 **Business Impact:**  
 - **Create tailored plans for senior citizens.**  
-- **Consider personalized retention strategies based on household status.**  
+- **Consider personalized retention strategies based on household status.**
+
+- **Access the Power BI dashboard here: [Interactive Power BI Dashboard]([https://app.powerbi.com/groups/me/reports/828c5435-922e-40da-b9f0-d2e3fb6bfc49/593d6c111b41dd6473d0?experience=power-bi])**
 ---
 
 ## **6. API Deployment**  
