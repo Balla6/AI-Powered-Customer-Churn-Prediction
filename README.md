@@ -151,12 +151,12 @@ To **effectively visualize churn trends and key insights**, a **Power BI dashboa
 ### **Dashboard Overview**  
 The dashboard consists of **seven key sections** providing actionable insights into customer churn:
 
-1.**Churn Overview** – High-level KPIs of churn probability, customer base, and revenue impact.  
-2.**Churn Risk Distribution** – Identifies customer segments at high risk of churning.  
-3.**Customer Segments & Churn Rate** – Examines churn rates based on contract type, payment method, and billing preferences.  
-4.**Service Usage & Churn Impact** – Evaluates how internet service type, streaming, and support services affect churn.  
-5.**Financial Factors & Churn** – Analyzes churn trends related to monthly and total charges.  
-6.**Demographics & Churn** – Highlights churn differences by **senior status, gender, and partner status**.  
+1. **Churn Overview** – High-level KPIs of churn probability, customer base, and revenue impact.  
+2. **Churn Risk Distribution** – Identifies customer segments at high risk of churning.  
+3. **Customer Segments & Churn Rate** – Examines churn rates based on contract type, payment method, and billing preferences.  
+4. **Service Usage & Churn Impact** – Evaluates how internet service type, streaming, and support services affect churn.  
+5. **Financial Factors & Churn** – Analyzes churn trends related to monthly and total charges.  
+6. **Demographics & Churn** – Highlights churn differences by **senior status, gender, and partner status**.  
 
 **Access the Power BI dashboard here: [Interactive Power BI Dashboard](https://app.powerbi.com/groups/me/reports/828c5435-922e-40da-b9f0-d2e3fb6bfc49/593d6c111b41dd6473d0?experience=power-bi)**
 
